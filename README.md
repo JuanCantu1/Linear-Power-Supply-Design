@@ -1,19 +1,10 @@
 # Linear-Power-Supply-Design
 
 # Introduction
-The project was done at he University of Texas Rio Grande Valley as part of EECE 3225, Electrical Engineering Lab 1, by Juan Cantu and Kaysi Gutierrez. 
+This project was completed at the University of Texas Rio Grande Valley as part of the EECE 3225 Electrical Engineering Lab 1 course by Juan Cantu and Kaysi Gutierrez during the Spring of 2023.
 
 # Abstract
-In this lab, we were to design a simple, unregulated AC-to-DC power supply. This involved designing a regulator circuit to form a regulated power supply. The parts of a regulated
-power supply are a transformer, rectifier, filter, and regulator. The output voltage of the circuit is
-dependent on the input AC voltage and the load current, as this can lead to fluctuations in the
-output voltage. This is the issue that the regulator circuit addresses. It is added to maintain a
-constant output voltage regardless of changes in the input voltage and load current. In this lab,
-we designed an unregulated power supply and analyzed the effects of the regulator circuit.
-Different load resistors were used to simulate a load and their impacts on the regulator circuit
-and output voltage were analyzed. The load was measured using a multimeter to evaluate the DC
-voltage output. An oscilloscope was used to monitor the AC Coupling through the peak-to-peak
-ripple.
+In this lab, we were to design a simple, unregulated AC-to-DC power supply. This involved designing a regulator circuit to form a regulated power supply. The parts of a regulated power supply are a transformer, rectifier, filter, and regulator. The output voltage of the circuit is dependent on the input AC voltage and the load current, as this can lead to fluctuations in the output voltage. This is the issue that the regulator circuit addresses. It is added to maintain a constant output voltage regardless of changes in the input voltage and load current. In this lab, we designed an unregulated power supply and analyzed the effects of the regulator circuit. Different load resistors were used to simulate a load and their impacts on the regulator circuit and output voltage were analyzed. The load was measured using a multimeter to evaluate the DC voltage output. An oscilloscope was used to monitor the AC Coupling through the peak-to-peak ripple.
 
 # Edquipment List
 - Function Generator
@@ -66,14 +57,4 @@ measuring 11.53 ohms for the 100% load
 ![10](https://github.com/JuanCantu1/Linear-Power-Supply-Design/assets/109363196/81b460d0-cbdd-49a4-bad6-cf900e6cca02)
 
 # Conclsuion
-The data recorded from measuring an unregulated power supply and its response to a
-regulator reveals several important observations. As the load on the power supply increases, the
-resistance decreases, leading to an increase in voltage due to the inverse relationship between
-resistance and voltage. The load regulation before the regulator is 18.43%, which improves
-significantly to 1.56% after the regulator is applied. Additionally, the peak-to-peak voltage ripple
-is substantially reduced to values under 1V after the regulator is introduced, as compared to the
-values recorded before the regulator. Furthermore, when a variac is used to test the effect of input
-voltage changes on the output, the regulator shows line regulation of 1.40%, which is
-significantly better than the 18.94% line regulation observed before the regulator was installed.
-These results suggest that the regulator effectively suppresses ripple voltage, and it is capable of
-regulating the power supply's output regardless of the input voltage or the size of the load.
+The data recorded from measuring an unregulated power supply and its response to a regulator reveals several important observations. As the load on the power supply increases, the resistance decreases, leading to an increase in voltage due to the inverse relationship between resistance and voltage. The load regulation before the regulator is 18.43%, which improves significantly to 1.56% after the regulator is applied. Additionally, the peak-to-peak voltage ripple is substantially reduced to values under 1V after the regulator is introduced, as compared to the values recorded before the regulator. Furthermore, when a variac is used to test the effect of input voltage changes on the output, the regulator shows line regulation of 1.40%, which is significantly better than the 18.94% line regulation observed before the regulator was installed. These results suggest that the regulator effectively suppresses ripple voltage, and it is capable of regulating the power supply's output regardless of the input voltage or the size of the load.
